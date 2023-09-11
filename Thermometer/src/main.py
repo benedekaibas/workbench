@@ -13,13 +13,19 @@ Expression course.
 
 def main():
     
-     print("This is the name of the program")
+    #print program name
+    print("Farenheiht to celsius converter", end = "\n\n")
 
-    input(str("This is a user input, type something: "))
-
-    a = 10 * 9 
-
-    print(a)
+    #Request user input
+    temp_f = int(input("Enter the temperature (without units): "))
+    #Perform a calculation
+    #to_int = int(temp_f)
+    
+    temp_c = (temp_f - 32) / 1.8
+    #temp_c *= 5/9
+    #Report result
+    print(temp_c)
 
 if __name__ == "__main__":
     main()
+    
