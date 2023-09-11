@@ -13,13 +13,13 @@ Expression course.
 
 def main():
     
-    # TODO: Print program name
+     print("This is the name of the program")
 
-    # TODO: Request user input
+    input(str("This is a user input, type something: "))
 
-    # TODO: Perform calculation
+    a = 10 * 9 
 
-    # TODO: Report result
+    print(a)
 
 if __name__ == "__main__":
     main()
